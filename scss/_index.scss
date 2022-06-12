@@ -32,18 +32,18 @@ body{
 .index-bg {
   margin: 0 auto;
   /* height: 100vh; */
-  background-image:url(https://github.com/daphanie0922/chatTalker/blob/main/images/bg_home.svg),
-                   url(https://github.com/daphanie0922/chatTalker/blob/main/images/ball01.svg),
-                   url(https://github.com/daphanie0922/chatTalker/blob/main/images/ball02.svg),
-                   url(https://github.com/daphanie0922/chatTalker/blob/main/images/ball03.svg);
+  background-image:url(https://raw.githubusercontent.com/daphanie0922/chatTalker/main/images/bg_home.svg),
+                   url(https://raw.githubusercontent.com/daphanie0922/chatTalker/main/images/ball01.svg),
+                   url(https://raw.githubusercontent.com/daphanie0922/chatTalker/main/images/ball02.svg),
+                   url(https://raw.githubusercontent.com/daphanie0922/chatTalker/main/images/ball03.svg);
   background-repeat:no-repeat;
   background-position:top right ,-222px 75vh,910px 1694px,50px 2640px;
   @media (max-width:414px) {
     margin: 0 auto;
-    background-image:url(https://github.com/daphanie0922/chatTalker/blob/main/images/bg_home_sm.svg),
-                     url(https://github.com/daphanie0922/chatTalker/blob/main/images/ball01.svg),
-                     url(https://github.com/daphanie0922/chatTalker/blob/main/images/ball02.svg),
-                     url(https://github.com/daphanie0922/chatTalker/blob/main/images/ball03.svg);
+    background-image:url(https://raw.githubusercontent.com/daphanie0922/chatTalker/main/images/bg_home_sm.svg),
+                     url(https://raw.githubusercontent.com/daphanie0922/chatTalker/main/images/ball01.svg),
+                     url(https://raw.githubusercontent.com/daphanie0922/chatTalker/main/images/ball02.svg),
+                     url(https://raw.githubusercontent.com/daphanie0922/chatTalker/main/images/ball03.svg);
     background-repeat:no-repeat;
     background-size: auto,35%,44%,auto;
     background-position:20px 391px, -90px 743px, 287px 3067px, -76px 4827px;
@@ -151,13 +151,13 @@ main {
 
 
 .footer-box {
-  background-image: url(https://github.com/daphanie0922/chatTalker/blob/main/images/home_footer.svg);
+  background-image: url(https://raw.githubusercontent.com/daphanie0922/chatTalker/main/images/home_footer.svg);
   padding: 260px 0px 108px 0px;
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
   @media (max-width:414px) {
-    background-image: url(https://github.com/daphanie0922/chatTalker/blob/main/images/footer_sm.svg);
+    background-image: url(https://raw.githubusercontent.com/daphanie0922/chatTalker/main/images/footer_sm.svg);
     padding: 293px 0px 60px 0px;
   }
   .footer-text {
