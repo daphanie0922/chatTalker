@@ -1,0 +1,183 @@
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+// .fz-18 {
+//   font-size: 18px;
+// }
+
+// .fz-20 {
+//   font-size: 20px;
+// }
+
+// .fz-24 {
+//   font-size: 24px;
+// }
+
+// .fz-32 {
+//   font-size: 32px;
+// }
+
+// .fz-48 {
+//   font-size: 48px;
+// }
+
+body{
+  font-family: Noto Sans TC, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+  
+.index-bg {
+  margin: 0 auto;
+  /* height: 100vh; */
+  background-image:url(/images/bg_home.svg),
+                   url(/images/ball01.svg),
+                   url(/images/ball02.svg),
+                   url(/images/ball03.svg);
+  background-repeat:no-repeat;
+  background-position:top right ,-222px 75vh,910px 1694px,50px 2640px;
+  @media (max-width:414px) {
+    margin: 0 auto;
+    background-image:url(/images/bg_home_sm.svg),
+                     url(/images/ball01.svg),
+                     url(/images/ball02.svg),
+                     url(/images/ball03.svg);
+    background-repeat:no-repeat;
+    background-size: auto,35%,44%,auto;
+    background-position:20px 391px, -90px 743px, 287px 3067px, -76px 4827px;
+  }
+    
+}
+
+.container {
+  max-width: 1120px;
+  padding: 0 20px;
+  // outline: 1px solid red;
+}
+
+.logo {
+  max-height: 40px;
+  @media (max-width:768px) {
+    max-height: 24px;
+  }
+}
+
+.btn {
+  width: 136px;
+  height: 49px;
+  color: #FFFFFF;
+}
+
+.btn-header {
+  width: 128px;
+  height: 40px;
+}
+
+.btn-red {
+  background: #FF5D50;
+  color: #FFFFFF;
+}
+
+.banner {
+  padding: 30px 0px 217px 0px;
+  @media (max-width:768px) {
+    padding: 33px 0px 98.5px 0px;
+  }
+}
+.pb-32 {
+  padding-bottom: 32px;
+}
+
+main {
+  .shadow {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px #00000014;
+  }
+  .icon-img {
+    width: 86px;
+    height: 86px;
+  }
+  .image {
+    width: 90px;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1.125rem;
+  }
+  .user-img {
+    width: 25%;
+    top: -50px;
+  }
+  .card-title {
+    font-size: 1.125rem;
+  }
+  .card-text {
+    font-size: 1rem;
+  }
+  @media (max-width:414px) {
+    h2 {
+      font-size: 1.75rem;
+    }
+    h3 {
+      font-size: 1.125rem;
+    }
+    p {
+      font-size: 1rem;
+    }
+  }
+  @media (max-width:768px) {
+    .user-img {
+      width: 18%;
+      left: 8%;
+      top: -100px;
+    }
+    
+  }
+
+  
+  
+}
+
+
+
+
+
+
+.footer-box {
+  background-image: url(/images/home_footer.svg);
+  padding: 260px 0px 108px 0px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+  @media (max-width:414px) {
+    background-image: url(/images/footer_sm.svg);
+    padding: 293px 0px 60px 0px;
+  }
+  .footer-text {
+    font-size: 2rem;
+    @media (max-width:768px) {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.footer {
+  background: #F5F5F5;
+  text-align: center;
+  padding: 16px 0px 8px 0px;
+}
+
+
+
+
+
+@media (max-width:992px) { 
+   
+}
